@@ -69,7 +69,7 @@
         <pitest.target>net.bytebuddy</pitest.target>
         <nexus.url>https://s01.oss.sonatype.org</nexus.url>
         <version.asm>9.7</version.asm>
-        <version.jna>5.12.1</version.jna>
+        <version.jna>5.14.0</version.jna>
         <version.junit>4.13.2</version.junit>
         <version.mockito>2.28.2</version.mockito>
         <version.plugin.clean>3.2.0</version.plugin.clean>
@@ -120,7 +120,7 @@
         <modulemaker.skip>false</modulemaker.skip>
         <javadoc.download.skip>false</javadoc.download.skip>
         <repository.url>git@github.com:raphw/byte-buddy.git</repository.url>
-        <surefire.arguments />
+        <surefire.arguments/>
     </properties>
 
     <licenses>
@@ -570,7 +570,7 @@
                 <jdk>9</jdk>
             </activation>
             <properties>
-                <project.build.outputTimestamp />
+                <project.build.outputTimestamp/>
                 <sourcecode.main.version>1.6</sourcecode.main.version>
                 <sourcecode.test.version>1.6</sourcecode.test.version>
                 <bytecode.main.version>1.6</bytecode.main.version>
@@ -1282,7 +1282,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <echo level="info" message="Checksum collection is enabled (only if using mvnw)." />
+                                        <echo level="info" message="Checksum collection is enabled (only if using mvnw)."/>
                                     </target>
                                 </configuration>
                             </execution>
@@ -1313,7 +1313,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <echo level="info" message="Checksum enforcement is enabled (only if using mvnw)." />
+                                        <echo level="info" message="Checksum enforcement is enabled (only if using mvnw)."/>
                                     </target>
                                 </configuration>
                             </execution>
