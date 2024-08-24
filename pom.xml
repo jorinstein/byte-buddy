@@ -111,7 +111,7 @@
         <version.android.sdk>4.1.1.4</version.android.sdk>
         <version.utility.findbugs>3.0.1</version.utility.findbugs>
         <version.utility.jsr305>3.0.2</version.utility.jsr305>
-        <version.jmh>1.35</version.jmh>
+        <version.jmh>1.37</version.jmh>
         <version.cglib>3.3.0</version.cglib>
         <version.javassist>3.29.0-GA</version.javassist>
         <spotbugs.skip>false</spotbugs.skip>
@@ -120,7 +120,7 @@
         <modulemaker.skip>false</modulemaker.skip>
         <javadoc.download.skip>false</javadoc.download.skip>
         <repository.url>git@github.com:raphw/byte-buddy.git</repository.url>
-        <surefire.arguments />
+        <surefire.arguments/>
     </properties>
 
     <licenses>
@@ -483,7 +483,7 @@
                 <version.plugin.javadoc>2.10.4</version.plugin.javadoc>
                 <version.plugin.antrun>1.8</version.plugin.antrun>
                 <version.checkstyle>6.1.1</version.checkstyle>
-                <version.jmh>1.16</version.jmh>
+                <version.jmh>1.37</version.jmh>
                 <version.cglib>3.2.12</version.cglib>
                 <version.javassist>3.22.0-GA</version.javassist>
                 <modulemaker.skip>true</modulemaker.skip>
@@ -570,7 +570,7 @@
                 <jdk>9</jdk>
             </activation>
             <properties>
-                <project.build.outputTimestamp />
+                <project.build.outputTimestamp/>
                 <sourcecode.main.version>1.6</sourcecode.main.version>
                 <sourcecode.test.version>1.6</sourcecode.test.version>
                 <bytecode.main.version>1.6</bytecode.main.version>
@@ -1282,7 +1282,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <echo level="info" message="Checksum collection is enabled (only if using mvnw)." />
+                                        <echo level="info" message="Checksum collection is enabled (only if using mvnw)."/>
                                     </target>
                                 </configuration>
                             </execution>
@@ -1313,7 +1313,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <echo level="info" message="Checksum enforcement is enabled (only if using mvnw)." />
+                                        <echo level="info" message="Checksum enforcement is enabled (only if using mvnw)."/>
                                     </target>
                                 </configuration>
                             </execution>
